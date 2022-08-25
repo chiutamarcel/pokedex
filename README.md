@@ -10,7 +10,7 @@ I wrote this Rest API as a sample project for learning Spring
 ### Warning: you need PostgreSQL installed and the application.properties configured properly to run this project! 
 
 This is an IntelliJ project, so it needs to be opened using the IDE and executed like any other project.
-The entry point is PokeDex.
+The entry point is PokedexApplication.
 
 ## Usage
 
