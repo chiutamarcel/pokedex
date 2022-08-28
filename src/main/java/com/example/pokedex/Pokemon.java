@@ -1,6 +1,8 @@
 package com.example.pokedex;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
@@ -15,6 +17,12 @@ public class Pokemon {
         this.name = name;
         this.nature = nature;
     }
+
+    public Pokemon(String name, String nature) {
+        this.name = name;
+        this.nature = nature;
+    }
+
 
     public Pokemon() {
     }

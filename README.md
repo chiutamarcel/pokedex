@@ -14,14 +14,7 @@ The entry point is PokedexApplication.
 
 ## Usage
 
-- GET /pokemon for listing of all the existing pokemons
-- GET /pokemon/{id} for searching a pokemon by its id
-
-## Future functionalities
-
-- GET /pokemon/{name} for searching a pokemon by name
-- GET /pokemon/{nature} for listing all pokemons of a certain nature
-
-## Known bugs
-
-- GET /pokemon/{id} returns a blank page if the pokemon with that id doesn't exist
+- GET /pokemon/all for listing of all the existing pokemons
+- GET /pokemon/id/{id} for searching a pokemon by its id
+- GET /pokemon/{name} for searching a pokemon by name ( case insensitive, full name not necessary )
+- GET /pokemon/nature/{nature} for listing all pokemons of a certain nature
